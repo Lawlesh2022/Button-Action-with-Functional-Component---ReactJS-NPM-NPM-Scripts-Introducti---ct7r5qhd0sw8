@@ -5,7 +5,7 @@ const addText=()=>{
   setText(input)
 
 function App() {
-  const[text, setText] = useState("")
+  const[text, setText] = useState("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
   return (
     <div id="main">
     <input type = "text" onChange={(e)=>setText(e.target.value)}/>
