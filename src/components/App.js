@@ -1,9 +1,5 @@
 import React, {Component, useState} from "react";
 import "./../styles/App.css";
-const addText=()=>{
-  const input = [...text];
-  setText(input)
-
 function App() {
   const[text, setText] = useState("")
   const addText =()=>{
