@@ -6,7 +6,7 @@ function App() {
     setText("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
   return (
     <div id="main">
-    <p>{text}</p>
+    <p id = "para">{text}</p>
     <button id="click" onClick ={addText}></button> 
     </div>
   );
