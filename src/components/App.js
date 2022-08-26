@@ -7,7 +7,7 @@ function App() {
     }
     return (
         <div id="main">
-            <p id = "para">{text}</p>
+            {<p id="para">{text}</p>}
             <button id="click" onClick ={addText}>addText</button> 
         </div>
    )
