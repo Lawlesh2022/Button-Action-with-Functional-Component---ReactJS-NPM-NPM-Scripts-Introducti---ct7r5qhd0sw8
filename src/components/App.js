@@ -1,7 +1,7 @@
 import React, {Component, useState} from "react";
 import "./../styles/App.css";
 function App() {
-    const [text] = useState("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
+    const [text, setText] = useState("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
     const [showPara, setShowPara] = useState(false)
     const enablePara =()=>{
         setShowPara(true)
