@@ -10,7 +10,7 @@ function App() {
     }
     return (
         <div id="main">
-            
+        
 //             showpara ?
             <p id="para">{text}</p>
             
